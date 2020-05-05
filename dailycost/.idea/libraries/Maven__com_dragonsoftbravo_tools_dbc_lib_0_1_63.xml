@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.dragonsoftbravo.tools:dbc-lib:0.1.63">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/dragonsoftbravo/tools/dbc-lib/0.1.63/dbc-lib-0.1.63.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/dragonsoftbravo/tools/dbc-lib/0.1.63/dbc-lib-0.1.63-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/dragonsoftbravo/tools/dbc-lib/0.1.63/dbc-lib-0.1.63-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
