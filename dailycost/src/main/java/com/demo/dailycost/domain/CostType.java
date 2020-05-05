@@ -11,32 +11,19 @@ import java.util.Date;
 
 @Data
 @Entity
-@Table(name = "cost")
+@Table(name = "cost_type")
 @DynamicInsert
 @DynamicUpdate
-public class Cost {
+public class CostType {
 
     @Id
     @GenericGenerator(name = "uuidG", strategy = "uuid2")
     @GeneratedValue(generator = "uuidG")
     private String id;
 
-    @Column(name = "type_id")
-    private String typeId;
+    private String name;
 
-    @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "type_id", insertable = false, updatable = false)
-    private CostType type;
-
-    /**
-     * 花费金额 单位：分
-     */
-    private Double cost;
-
-    private String remark;
-
-    @Temporal(TemporalType.TIMESTAMP)
-    private Date costTime;
+    private String userId;
 
     @Column(name = "is_delete")
     @Type(type = "org.hibernate.type.NumericBooleanType")
