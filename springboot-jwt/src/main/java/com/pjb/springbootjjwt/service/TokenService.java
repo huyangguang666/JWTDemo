@@ -2,15 +2,11 @@ package com.pjb.springbootjjwt.service;
 
 import com.auth0.jwt.JWT;
 import com.auth0.jwt.algorithms.Algorithm;
-import com.pjb.springbootjjwt.entity.User;
+import com.pjb.springbootjjwt.domain.User;
 import org.springframework.stereotype.Service;
 
 
-/**
- * @author jinbin
- * @date 2018-07-08 21:04
- */
-@Service("TokenService")
+@Service
 public class TokenService {
     public String getToken(User user) {
         String token="";

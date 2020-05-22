@@ -1,12 +1,10 @@
 package com.pjb.springbootjjwt.mapper;
 
-import com.pjb.springbootjjwt.entity.User;
+import com.pjb.springbootjjwt.domain.User;
 
-/**
- * @author jinbin
- * @date 2018-07-08 20:44
- */
 public interface UserMapper {
-    User findByUsername(String username);
+
+    User findByUsername(String name);
+
     User findUserById(String Id);
 }
